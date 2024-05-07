@@ -8,7 +8,7 @@ let scene, camera, renderer, cube, cylinder, ship;
 function init () {
     scene = new THREE.Scene();
     const light = new THREE.DirectionalLight(0xffffff, 10);
-    light.position.set(1,1,5);
+    light.position.set(3,3,5);
     scene.add(light);
     camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
     

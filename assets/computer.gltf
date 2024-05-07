@@ -1,0 +1,197 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v3.1.95221606)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 173,
+            "type": "VEC3",
+            "max": [
+                0.3932270109653473,
+                1.1715869903564454,
+                -0.2386290282011032
+            ],
+            "min": [
+                -0.45197901129722597,
+                0.6501569747924805,
+                -0.33499303460121157
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 173,
+            "type": "VEC3",
+            "max": [
+                0.9999992847442627,
+                1.0,
+                0.9742879867553711
+            ],
+            "min": [
+                -0.9999992847442627,
+                -1.0,
+                -0.9958965182304382
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 173,
+            "type": "VEC4",
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.978111982345581,
+                -0.9840589761734009,
+                -0.9963187575340271,
+                -0.978111982345581
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 173,
+            "type": "VEC2",
+            "max": [
+                0.991639256477356,
+                0.9999989867210388
+            ],
+            "min": [
+                9.5367431640625e-7,
+                0.0000010728836059570313
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 312,
+            "type": "SCALAR",
+            "max": [
+                172.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 8928,
+            "uri": "computer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2076,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2076,
+            "byteLength": 2076,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4152,
+            "byteLength": 2768,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6920,
+            "byteLength": 1384,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 8304,
+            "byteLength": 624,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Monitor.002",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 4,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "computer_desk.obj",
+            "matrix": [
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Monitor.002",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}

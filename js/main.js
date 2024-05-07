@@ -37,7 +37,7 @@ function init () {
 function animate() {
 	requestAnimationFrame( animate );
 
-    ship.rotation.x += 0.03;
+    ship.rotation.x += 0.01;
 	//ship.rotation.y += 0.03;
     //ship.rotation.z += 0.07;
     

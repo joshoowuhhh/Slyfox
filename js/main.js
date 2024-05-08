@@ -17,7 +17,7 @@ function init () {
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild( renderer.domElement );
 
-    const controls = new OrbitControls(camera, renderer.domElement);
+    //const controls = new OrbitControls(camera, renderer.domElement);
     const loader = new GLTFLoader();
     loader.load('assets/slyfox2601.gltf', function (gltf) {
         ship = gltf.scene;
